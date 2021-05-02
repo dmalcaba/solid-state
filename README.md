@@ -1,15 +1,17 @@
-# solid-state
+# Solid State - Jekyll Theme
+
 A Jekyll implementation of Solid State by HTML5 UP
 
-### Running the Site Locally
+## Running the Site Locally
 
 `$ docker run -d --name solid-state --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll:3.8 jekyll serve --config _config.yml,_config_dev.yml --watch --drafts`
 
 
+# Credits
 
+Original README from HTML5 UP:
 
-## 
-
+```
 Solid State by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
@@ -41,3 +43,4 @@ Credits:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+```
