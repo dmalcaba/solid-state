@@ -1,8 +1,16 @@
+# Site Settings
+
 name: Solid State
 
 baseurl: "/solid-state" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+author:
+  name: John Smith
+  address:
+    line1: 1234 Somewhere Road Suite #2894
+    line2: Kelowna, BC V1X 2C4
+  phone: (555) 555-5555
 
 # Paginate
 paginate: 6
@@ -10,3 +18,4 @@ paginate_path: /page:num/
 
 plugins:
   - jekyll-paginate
+
