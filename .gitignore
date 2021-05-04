@@ -1,4 +1,6 @@
-_site/
+*.gem
+.bundle
 .sass-cache/
+_site/
 .jekyll-cache/
 .jekyll-metadata
