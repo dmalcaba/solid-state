@@ -1,5 +1,4 @@
 ---
-layout: post
 subtitle: Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.
 ---
 

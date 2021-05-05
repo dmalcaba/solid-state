@@ -12,6 +12,16 @@ author:
     line2: Kelowna, BC V1X 2C4
   phone: (555) 555-5555
 
+# Defaults
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
 # Paginate
 paginate: 6
 paginate_path: /page:num/
@@ -19,3 +29,4 @@ paginate_path: /page:num/
 plugins:
   - jekyll-paginate
 
+include: [_pages]
