@@ -3,6 +3,8 @@ subtitle: Example of all different elements
 thumbnail: pic04.jpg
 ---
 
+This is a list of all different elements.
+
 ---
 # Headers Example
 
