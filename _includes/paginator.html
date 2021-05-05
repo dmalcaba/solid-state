@@ -1,0 +1,13 @@
+<section class="features">
+    {% for post in paginator.posts %}
+    <article>
+        <a href="#" class="image"><img src="{{ "/assets/images/pic04.jpg" | relative_url }}" alt="" /></a>
+        <h3 class="major">{{ post.title }}</h3>
+        <p>{{ post.excerpt }}</p>
+        <ul class="contact">
+            <li class="icon solid fa-calendar">{{ post.date | date: "%b %-d, %Y" }}</li>
+        </ul>
+        <a href="{{ post.url | relative_url }}" class="special">Learn more</a>
+    </article>
+    {% endfor %}
+</section>

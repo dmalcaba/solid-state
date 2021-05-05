@@ -19,20 +19,9 @@ subtitle: Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.
             <p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce
                 tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
                 tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-            <section class="features">
-                {% for post in paginator.posts %}
-                <article>
-                    <a href="#" class="image"><img src="{{ "/assets/images/pic04.jpg" | relative_url }}" alt="" /></a>
-                    <h3 class="major">{{ post.title }}</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.
-                    </p>
-                    <ul class="contact">
-                        <li class="icon solid fa-calendar">{{ post.date | date: "%b %-d, %Y" }}</li>
-                    </ul>
-                    <a href="{{ post.url | relative_url }}" class="special">Learn more</a>
-                </article>
-                {% endfor %}
-            </section>
+
+            {% include paginator.html %}
+
             <ul class="actions">
                 <li><a href="#" class="button">Browse All</a></li>
             </ul>
