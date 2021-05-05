@@ -2,16 +2,16 @@
     <article>
         {% if page.previous.url %}
         <a href="#" class="image"><img src="{{ "assets/images/" | append: page.previous.thumbnail | relative_url }}" alt="" /></a>
-        <h3 class="major">Sed feugiat lorem</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+        <h3 class="major">{{ page.previous.title }}</h3>
+        <p>{{ page.previous.excerpt }}</p>
         <a href="{{ page.previous.url | relative_url }}" class="special">Learn more</a>
         {% endif %}
     </article>
     <article>
         {% if page.next.url %}
         <a href="#" class="image"><img src="{{ "assets/images/" | append : page.next.thumbnail | relative_url }}" alt="" /></a>
-        <h3 class="major">Nisl placerat</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+        <h3 class="major">{{ page.next.title }}</h3>
+        <p>{{ page.next.excerpt }}</p>
         <a href="{{ page.next.url | relative_url }}" class="special">Learn more</a>
         {% endif %}
     </article>
