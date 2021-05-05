@@ -1,5 +1,6 @@
 ---
 subtitle: Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.
+thumbnail: pic05.jpg
 ---
 
 ### Lorem ipsum dolor

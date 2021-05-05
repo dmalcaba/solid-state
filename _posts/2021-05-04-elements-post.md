@@ -1,5 +1,6 @@
 ---
 subtitle: Example of all different elements
+thumbnail: pic04.jpg
 ---
 
 ---
