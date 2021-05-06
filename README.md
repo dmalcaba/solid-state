@@ -4,6 +4,11 @@ A Jekyll implementation of [Solid State](https://html5up.net/solid-state) site t
 
 ![Solid State Theme](assets/images/screenshot.jpg "Solid State Theme")
 
+## Features
+
+- Google Analytics
+- Tags
+
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:

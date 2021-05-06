@@ -12,6 +12,9 @@ author:
     line2: Kelowna, BC V1X 2C4
   phone: (555) 555-5555
 
+# Enter your Google Analytics web tracking code (starts with UA-* or G-* if using GA4)
+google_analytics: G-EPSSK79JX4
+
 # Defaults
 
 defaults:
