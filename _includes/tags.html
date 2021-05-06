@@ -1,0 +1,7 @@
+{% if page.tags.size > 0 %}
+<ul class="actions">
+    {% for tag in page.tags %}
+    <li><a class="button small" href="{{site.baseurl}}/tags#{{ tag | downcase }}" rel="tag">{{ tag }}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}

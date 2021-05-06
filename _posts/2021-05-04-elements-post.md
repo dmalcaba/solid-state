@@ -1,6 +1,7 @@
 ---
 subtitle: Example of all different elements
 thumbnail: pic04.jpg
+tags: sample guide
 ---
 
 This is a list of all different elements.
